@@ -1,6 +1,6 @@
 # dsh-pet-update 🐾
 
-> 基于 [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) 二次优化的桌面宠物插件。
+> 基于 [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) 二次优化的桌面宠物插件。通过AI实现了一些新功能，如果满足兄弟们需要，可以下载这个，不用给吃白饭的大肥鱼喂token了做升级了，我已经给她喂过了。
 
 <p align="center">
   <a href="https://github.com/003617/dsh-pet-update"><img alt="stars" src="https://img.shields.io/github/stars/003617/dsh-pet-update?style=social"></a>
