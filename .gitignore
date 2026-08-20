@@ -1,0 +1,11 @@
+# dsh-pet-update 项目发布清单
+# 排除项：
+#  - backup/      本地备份文件，不入库
+#  - node_modules 依赖（本项目无构建依赖，但按惯例排除）
+#  - 日志 / 临时文件
+
+backup/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
