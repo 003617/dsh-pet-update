@@ -14,22 +14,31 @@
 
 ---
 
-## 🚀 Quick Start (Install the Plugin)
+## 🚀 Quick Start (Install This Fork)
+
+Install this fork directly from GitHub:
 
 ```sh
-dsh plugin --profile web add dsh-pet
+dsh plugin --profile web add github:003617/dsh-pet-update
+```
+
+Or clone and install from a local directory:
+
+```sh
+git clone https://github.com/003617/dsh-pet-update.git
+dsh plugin --profile web add ./dsh-pet-update
 ```
 
 Restart `dsh web` and the pet appears in the bottom-right corner — 51 transparent animations, ready to use out of the box, no generation pipeline required.
 
-> 💡 This repository is the **optimized source** of dsh-pet — clone it and install locally.
-> Want to craft your own one-of-a-kind pet from scratch? Head to the upstream repo [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) (asset pipeline: AI prompts → green-screen video → transparent animation, generated with Doubao — fully reproducible).
+> ⚠️ Note: `dsh plugin --profile web add dsh-pet` (without a source) installs the **upstream original** published on npm, not this fork.
+> 💡 Want to craft your own one-of-a-kind pet from scratch? Head to the upstream repo [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) (asset pipeline: AI prompts → green-screen video → transparent animation, generated with Doubao — fully reproducible).
 
 ## ✨ Features
 
 - **Session-activity aware**: follows the current session phase (thinking / reading / editing / working / replying / done / error) to switch expressions and rotate speech bubbles automatically
 - **Balance prompts**: queries your DeepSeek balance every 5 minutes (or on left double-click); plays the "eating rice" animation and shows the balance in a bubble
-- **Character lines & idle skits**: click for one of 6 random lines; ~3 min idle triggers one of 11 action skits; a random mini bubble every 2 minutes
+- **Character lines & idle skits**: click for one of 6 random lines; ~3 min idle triggers one of 11 action skits
 - **A pure pet, nothing else**: no weather, no monitoring; balance queries go through the server-side proxy, the browser never touches your API key
 - **51 hand-drawn style transparent animations**: idle breathing, dozing off, Rubik's cube, humming, hair-raising, bubbles, water gun, violin, the whale emerging, eating rice, mirror, three dances, writing code, seasonal actions (kite, snowman, ice cream, fireworks…) — all seamlessly chained
 - **Never-ending animation chain**: the next animation is picked instantly by probability (30% idle / 10% turn / 40% action / 20% move)
