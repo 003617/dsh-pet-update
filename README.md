@@ -62,8 +62,13 @@ dsh plugin --profile web add ./dsh-pet-update
 ## 🗑️ 卸载
 
 ```sh
-dsh plugin --profile web remove dsh-pet
+dsh plugin --profile web remove dsh-pet-update
 ```
+
+> 💡 如果你之前通过 npm 安装过上游原版 `dsh-pet`，本版（包名 `dsh-pet-update`）与它**不是同一个插件**，两者可能同时出现在界面上；如需彻底换成优化版，请先卸载上游版：
+> ```sh
+> dsh plugin --profile web remove dsh-pet
+> ```
 
 ## 🎬 效果预览
 

@@ -1,5 +1,5 @@
 {
-  "name": "dsh-pet",
+  "name": "dsh-pet-update",
   "version": "0.1.9",
   "description": "A floating desktop pet for the DeepSeek Harness Web UI with session-activity aware expressions, actions, rotating speech bubbles, and periodic DeepSeek balance prompts.",
   "keywords": [
@@ -22,10 +22,10 @@
     "url": "https://github.com/003617/dsh-pet-update/issues"
   },
   "_comment": [
-    "=============== dsh-pet 包清单说明 ===============",
+    "=============== dsh-pet-update 包清单说明 ===============",
     "type: module —— 本包是 ESM",
     "main: lib/index.js —— 宿主半侧入口（Cordis 插件：name/inject/apply）",
-    "exports['./client'] —— 浏览器半侧入口，DSH 模块系统按它提供 /plugins/dsh-pet/client.js",
+    "exports['./client'] —— 浏览器半侧入口，DSH 模块系统按它提供 /plugins/dsh-pet-update/client.js",
     "dsh.bundle.patch —— 声明本包是 bundle，patch 文件是 cordis.patch.yml（安装后自动进层栈）",
     "dsh.client —— 声明浏览器半侧的注入依赖和平台（web）",
     "files —— npm publish 只发这些目录/文件（assets/thumb 播放资源；README 预览直接引用仓库内 webm）",

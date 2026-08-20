@@ -62,8 +62,13 @@ Restart `dsh web` and the pet appears in the bottom-right corner — 51 transpar
 ## 🗑️ Uninstall
 
 ```sh
-dsh plugin --profile web remove dsh-pet
+dsh plugin --profile web remove dsh-pet-update
 ```
+
+> 💡 If you previously installed the upstream original `dsh-pet` from npm, note that this fork (package name `dsh-pet-update`) is **a different plugin** — both may appear on screen at once. To fully switch to this fork, uninstall the upstream one first:
+> ```sh
+> dsh plugin --profile web remove dsh-pet
+> ```
 
 ## 🎬 Animation Previews
 
